@@ -1,0 +1,10 @@
+nome = input('digite seu nome ')
+maiusculo = nome.upper()
+minusculo = nome.lower()
+tamanho = len(nome)
+tamanh_primeiro = len(nome.split()[0])
+
+print('seu nome em maiusculo: {}'.format(maiusculo))
+print('seu nome em minusculo: {}'.format(minusculo))
+print('seu nome tem {} caracteres'.format(tamanho))
+print('o primeiro nome tem {} caracteres'.format(tamanh_primeiro))
